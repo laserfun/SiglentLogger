@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-This program acquires spectra using a ANDO 6315E and rotates a Thorlabs K10CR1 rotation stage.
-By Grace Kerber and Dan Hickstein
-This program requires that the Thorlabs Kinesis drivers are in the same folder as this program.
-pyVISA is used to communicate with the ANDO OSA using GPIB.
+This script saves data from a Signent spectrum analyzer. It has been tested
+with the 
 """
 from __future__ import print_function
 import ctypes as c
