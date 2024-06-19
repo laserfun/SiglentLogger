@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 This script saves data from a Signent spectrum analyzer. It has been tested
-with the 
+with the Siglent SSA 3012X Spectrum Analyzer.
 """
 from __future__ import print_function
 import ctypes as c
